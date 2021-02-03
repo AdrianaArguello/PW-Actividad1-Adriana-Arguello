@@ -1,0 +1,120 @@
+body {
+    background-color: #AAD6FD;
+}
+
+h2 {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+.flex_container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #ffffff;
+    margin: 50px 0;
+    margin-left: 20px;
+    padding: 35px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-radius: 9px;
+    width: 40%;
+}
+
+.form {
+    min-width: 100%;
+    flex: 1;
+    padding: 10px;
+    margin-top: -8px;
+}
+
+.form__input {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    background: #ECECEC;
+    color: #000;
+    border-radius: 16px;
+    text-align: center;
+    border-bottom: 2px solid #a1e1fa;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 7 18%);
+}
+
+.form__input[type=text]:focus, .form__input[type=number]:focus{
+    background: linear-gradient(to bottom, transparent,#ddeefef1);
+    outline: none;
+}
+
+.form input[type="submit"]{
+    background-color:#91cafc;
+    outline: none;
+    border-bottom: none;
+    margin-top: 19px;
+    padding: 12px;
+    color: #fff;
+}
+
+.form input[type="submit"]:hover{
+    background-color: #78befc;
+    border-bottom: none;
+    padding: 12px;
+    margin-top: 19px;
+}
+
+.table{
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 13px;
+    border-collapse: collapse;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff; color: #039;
+}
+
+td {
+    padding: 8px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+
+.table_container{
+    justify-content: center;
+    display: flex;
+    width: 60%;
+    margin: 50px 50px;
+    border-radius: 9px;
+}
+
+@media screen and (max-width:699px){
+    .flex_container{
+        width: 22rem;
+        margin: 50px;
+    }
+
+    .container{
+        display: block;
+        justify-content: center;
+    }
+}

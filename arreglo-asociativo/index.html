@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriana Arguello</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="flex_container">
+            <form class="form" autocomplete="off">
+                <div class="form__section">
+                    <h2>Nombre:</h2>
+                    <input type="text" name="nombre" class="form__input" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form__section">
+                    <h2>Apellido:</h2>
+                    <input type="text" name="apellido" class="form__input" placeholder="Ingrese su apellido">
+                </div>
+                <div class="form__section">
+                    <h2>Cedula:</h2>
+                    <input type="number" name="cedula" class="form__input" placeholder="Ingrese su cedula">
+                </div>
+                <div class="form__section">
+                    <h2>Lugar de trabajo:</h2>
+                    <input type="text" name="lugartrabajo" class="form__input" placeholder="Ingrese su Lugar de trabajo">
+                </div>
+                <div class="form__section">
+                    <h2>Departamento:</h2>
+                    <input type="text" name="departamento" class="form__input" placeholder="Ingrese su Departamento">
+                </div>
+                <div class="form__section">
+                    <h2>Sueldo:</h2>
+                    <input type="number" name="sueldo" class="form__input" placeholder="Ingrese su sueldo">
+                </div>
+                <div class="form__section">
+                    <input id="submit" type="submit" class="form__input" onclick="enviar()">
+                </div>
+            </form>
+        </div>
+        <div class="table_container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>nombre</td>
+                        <td>apellido</td>
+                        <td>cedula</td>
+                        <td>lugar de trabajo</td>
+                        <td>departamento</td>
+                        <td>sueldo</td>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
