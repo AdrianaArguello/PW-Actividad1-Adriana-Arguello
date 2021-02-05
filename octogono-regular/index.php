@@ -32,6 +32,9 @@
                 <div class="form__section">
                     <input type="submit" class="form__input">
                 </div>
+                <div class="form__section">
+                    <a href="../index.php" class=""><div class="form__input ahref">Regresar</div></a>
+                </div>
             </form>
             <?php
                 $areaL="";

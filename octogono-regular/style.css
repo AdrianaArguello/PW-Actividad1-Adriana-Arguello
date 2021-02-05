@@ -22,6 +22,10 @@ h1 {
     color: #000;
 }
 
+a {
+    text-decoration: none;
+}
+
 .flex_container {
     display: flex;
     align-items: center;
@@ -29,7 +33,7 @@ h1 {
     justify-content: center;
     background: #ffffff;
     margin: 90px 90px;
-    padding: 35px;
+    padding: 35px 35px 94px 35px;
     box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
     border-radius: 4px;
     width: 25rem;
@@ -73,3 +77,35 @@ h1 {
     border-bottom: none;
     padding: 12px;
 }
+
+.form__section a {
+    display: flex;
+    justify-content: center;
+}
+
+.ahref {
+    background-color: #ff9a00;
+    border-bottom: none;
+    color: #fff;
+    outline: none;
+    width: 50%;
+    font-size: 13px;
+}
+
+.ahref:hover {
+    background-color:#e59025;
+    border-bottom: none;
+    width: 50%;
+    font-size: 13px;
+}
+
+
+/* @media screen and (max-width:542px){
+    .flex__container{
+        margin: 0 !important;
+    }
+
+    .form {
+        min-width: 100%;
+    }
+} */

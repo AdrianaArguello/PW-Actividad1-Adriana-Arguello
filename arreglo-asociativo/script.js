@@ -29,7 +29,9 @@ function enviar(){
             let resultado = JSON.parse(result);
             console.log(result);
             alert(resultado.mensaje);
-            addrow(resultado.data);
+            if(resultado.data != null) {
+                addrow(resultado.data);
+            }
         }
     });
 
